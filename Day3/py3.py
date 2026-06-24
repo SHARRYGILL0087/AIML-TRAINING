@@ -33,3 +33,8 @@ print("z" not in a)  # True
 
 # Logical 
 # and    or 
+a = 3 
+b = 2
+print(a & b)
+print(a | b)
+print(~a)
