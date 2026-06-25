@@ -32,9 +32,9 @@ print("z" in a)      # False
 print("z" not in a)  # True
 
 # Logical 
-# and    or 
+# and    or   not
 a = 3 
 b = 2
-print(a & b)
-print(a | b)
-print(~a)
+print(a==3 and b==2)
+print(a==3 or b==1)
+print(not(a==3 or b==2))
